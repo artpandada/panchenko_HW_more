@@ -21,6 +21,20 @@ function createMatrix(number) {
 
 
 //функция, которая принимает 2 матрицы и перемножает их
+const arr =
+    [
+        [2, 2, 3],
+        [2, 4, 4],
+        [3, 5, 6]
+    ];
+
+
+const arrNext =
+    [
+        [1, 2],
+        [2, 4],
+        [3, 4]
+    ];
 
 
 function multiplicationMatrix(matrixFirst, matrixSecond) {
@@ -55,6 +69,7 @@ function multiplicationMatrix(matrixFirst, matrixSecond) {
     }, []);
 
 }
+console.log(multiplicationMatrix(arr,arrNext));
 
 
 
